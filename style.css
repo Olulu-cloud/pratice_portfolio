@@ -404,3 +404,136 @@ body {
     object-fit: cover;
     display: block;
 }
+
+.footer-content {
+    padding: 60px 7%;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    margin-top: 50px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foot-text {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foot-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.foot-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.info-item i {
+    font-size: 18px;
+    color: rgba(255,255,255,0.9);
+    min-width: 25px;
+    margin-top: 2px;
+}
+
+.info-item span {
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+    line-height: 1.5;
+}
+
+.foot-form {
+    flex: 1 1 450px;
+}
+
+.foot-form h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    visibility: hidden;
+    height: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 18px 22px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255,255,255,0.4);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.08);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 18px 20px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: rgba(255,255,255,0.15);
+    transform: translateY(-2px);
+    border-color: rgba(255,255,255,0.3);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto
+}
